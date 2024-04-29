@@ -3,12 +3,13 @@ body {
     margin: 0;
 }
 
-h1,h2,h3,p {
-    margin: 2;
+h2,h3,p {
+    margin: 10px 0 20px 0px;
 }
 
 h1 {
-    font-size: 60px;
+    margin: 0;
+    font-size: 100px;
 }
 
 header {
@@ -26,18 +27,16 @@ header {
     color: black;
 }
 
-.landing-page-elements {
-    width: 800px;
+.hero-elements {
+    width: fit-content;
+    position: relative;
+    top: 400px;
+    left: 250px;
     text-align: left;
-    padding-top: 40vh;
-    padding-left: 150px;
-    padding-bottom: 50px;
 }
 
-.landing-page-container {
+.hero {
     background-color: rgb(255, 0, 0);
-    height: 100vh;
-    width: 100vw;
 }
 
 .primary-button {
