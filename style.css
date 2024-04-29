@@ -1,64 +1,38 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    font-family: montserrat, sans-serif;
 }
 
-h2,h3,p {
-    margin: 10px 0 20px 0px;
+ul {
+    padding: 120px;
+    margin: auto;
+    width: 60%;
+    list-style-type: none;
 }
 
-h1 {
-    margin: 0;
-    font-size: 100px;
+li {
+    display: inline;
+    margin: auto 70px;
+    /*padding: 20px 40px;*/
+    background-color: none;
+}
+
+li:hover {
+    display: inline;
+    margin: auto 70px;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
 }
 
 header {
     margin: 0;
     text-align: center;
-}
-
-.header-text div {
-    display: inline-block;
-    padding: 25px;
-}
-
-.header-text div a {
-    text-decoration: none;
-    color: black;
-}
-
-.hero-elements {
-    width: fit-content;
-    position: relative;
-    top: 400px;
-    left: 250px;
-    text-align: left;
-}
-
-.hero {
-    background-color: rgb(255, 0, 0);
-}
-
-.primary-button {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 15px 50px 15px 50px;
-    border-radius: 150px;
-    background: none;
-    border-color: black;
-    border-style: solid;
-}
-
-.primary-button a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-.primary-button:hover {
-    background-color: white;
-    text-align: center;
-    padding: 15px 50px 15px 50px;
-    border-radius: 150px;
-    border-style:none;
+    /*box-shadow: 5px 5px 20px lightgray;
+    /*padding: 20px 0px;
+    /*border: solid 1px black;*/
 }
