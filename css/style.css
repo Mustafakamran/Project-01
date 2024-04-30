@@ -1,93 +1,85 @@
 body {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     padding: 0;
-    overflow-x: hidden;
-}
-/* HEADER */
-
-header {
+  }
+  
+  /* HEADER */
+  
+  header {
     background-color: black;
-    background-image: url('/img/hero.jpg');
-    /* background-size: 100%; */
-    background-repeat: no-repeat;
-    background-size: 150vw;
+    /*  sorry for the LONG urls, I had to upload them to google drive  */
+    background-image: url("/img/hero.jpg");
+    background-size: 100%;
     background-position: center;
-    height: 100vh; /* Header Section Size */
-    /* padding: 20px; */
-}
-
-header a {
-    /* color: white;
-    margin-top: 40px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header a {
+    color: white;
     text-decoration: none;
-    text-transform: uppercase; */
-}
-
-header .logo a {
-    background: url('/img/logo.png');
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  
+  header .logo a {
+    /* background: red; */
+    background-image: url("/img/logo.png");
     background-size: 100px;
     background-repeat: no-repeat;
     display: inline-block;
     height: 110px;
     position: relative;
     text-indent: -9999999px;
-    /* top: -50px; */
+    top: -50px;
     width: 100px;
-}
-
-nav ul {
-    list-style-type: none;
+  }
+  
+  nav ul {
     margin: 0;
     padding: 0;
-    position: relative;
-    top: 100px;
-    text-align: center;
-}
-
-nav li {
+    list-style-type: none;
+  }
+  
+  nav li {
     display: inline-block;
-}
-
-nav ul li a {
-    color: white;
-    background: red;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-h1 {
-    position: relative;
-    top: 200px;
-    left: 100px;
-}
-
-/* FEATURES */
-
-.features {
+    margin-right: 20px;
+  }
+  
+  /* FEATURES */
+  
+  .features {
     background: white;
-    color: rgb(0, 0, 0);
+    color: gray;
+    padding: 20px;
     display: flex;
     flex-direction: row;
-}
-
-.features figure {
+  }
+  
+  .features figure {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
-}
-
-.features figure img {
-    width: 100%;
-}
-
-/* FOOTER */
-
-footer {
+    width: 200px;
+  }
+  
+  .features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+  }
+  
+  /* FOOTER */
+  
+  footer {
     background: black;
     color: gray;
-    padding: 40px;
-    font-size: 14px;
+    font-size: 12px;
+    padding: 20px 20px;
     text-align: center;
-}
+  }
+  
