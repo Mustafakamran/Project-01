@@ -1,85 +1,161 @@
 body {
-    margin: 0;
-    color: white;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    padding: 0;
+ /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: "Roboto", sans-serif;
+  /* background-color: var(--clr-light); */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  background: black;
+  background-image: url(/img/hero.jpg);
+  /* height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  /* background-image: url("https://nicolaslule.com/wp-content/uploads/hero-image-flex-example-1.jpg"); */
+  height: 100vh;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.navigation {
+  color: white;
+}
+
+ul {
+  /* border: 2px solid #fb7185; */
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  /* align-content: center; */
+  gap: 1em;
+}
+
+li {
+  width: 150px;
+  height: 250px;
+  /* background-color: #fb7185; */
+  padding: 1em;
+  font-weight: 700;
+  color: var(--clr-light);
+  text-align: center;
+  align-content: center;
+  /* border: 10px solid var(--clr-accent); */
+  list-style-type: none;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--clr-accent);
+}
+
+.logo {
+  text-indent: -999999px;
+  background-image: url(/img/logo.png);
+  background-size: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
   }
-  
-  /* HEADER */
-  
-  header {
-    background-color: black;
-    /*  sorry for the LONG urls, I had to upload them to google drive  */
-    background-image: url("/img/hero.jpg");
-    background-size: 100%;
-    background-position: center;
-    height: 400px;
-    padding: 20px;
+
+  h1 {
     text-align: center;
+    align-content: center;
   }
+
+/* .features {
+  background: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  border: 2px dashed white;
+   flex-shrink: 0;
+}
+
+.features img {
+  flex: 1 0 33.33%; Adjust the percentage as needed
+  flex-shrink: 0; Prevent images from shrinking
+  width: 500px;
+} */
+
+.features {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.features img {
+  width: 25vw; 
+  /* flex: 1 1 auto;  */
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.Text-1 {
+  background: black;
+  background-image: url(/img/img6.jpg);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
-  header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 40px;
-  }
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Text-1 h1,p {
+  color: white;
   
-  header .logo a {
-    /* background: red; */
-    background-image: url("/img/logo.png");
-    background-size: 100px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 110px;
-    position: relative;
-    text-indent: -9999999px;
-    top: -50px;
-    width: 100px;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  /* FEATURES */
-  
-  .features {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .features figure {
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-    width: 200px;
-  }
-  
-  .features figure img {
-    border: 1px solid white;
-    border-radius: 50%;
-    box-shadow: gray 0 0 10px;
-    width: 200px;
-  }
-  
-  /* FOOTER */
-  
-  footer {
-    background: black;
-    color: gray;
-    font-size: 12px;
-    padding: 20px 20px;
-    text-align: center;
-  }
-  
+}
+
+/* FOOTER */
+
+footer {
+  height: 250px;
+  background: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
