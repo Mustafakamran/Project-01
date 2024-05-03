@@ -170,12 +170,3 @@ canvas {
   height: 100vh;
 }
 
-.bg2 {
-  z-index: -1;
-  background-size: cover;
-  background: url('/img/BG.jpg');
-  filter: brightness(0.3) blur(2px);
-  width: 100vw;
-  height: 100vh;
-}
-
