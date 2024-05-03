@@ -170,3 +170,14 @@ canvas {
   height: 100vh;
 }
 
+@media only screen and (max-width: 768px) {
+  canvas {
+    margin: 0 auto;
+  }
+
+  .bg {
+    background-size: contain;
+  }
+}
+
+
