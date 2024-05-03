@@ -1,153 +1,181 @@
-body {
- /* height: 100%; */
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  word-spacing: 1.4px;
-  font-family: "Roboto", sans-serif;
-  /* background-color: var(--clr-light); */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 100vw;
+html {
+  scroll-behavior:smooth;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+} */
+
+/* .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 100px;
+  background: rgba(0, 0, 0, 0.192);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(30px);
+  border-bottom: 1px solid #ffffff83;
+} */
+
+/* .header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent, hsla(0, 0%, 100%, 0.3), transparent);
+  transition: 0.8s;
+}
+
+.header:hover::before {
+  left: 100%;
+} */
+
+/* .logo {
+  color: white;
+  padding: 40px 0px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;
+  transition: 0.5s;
+  font-family: Amarillo;
+}
+
+.logo:hover {
+  color: #e8c639;
+  border-bottom: 1px solid white;
+}
+
+.navbar a {
+  padding: 46px 0px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 35px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: #e8c639;
+  border-bottom: 1px solid white;
+}
+
+section {
+  min-height: 100vh;
 }
 
 .hero {
-  /* height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)),
+  url('/img/Hoodies/Landing.jpg') no-repeat;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* background-image: url("https://nicolaslule.com/wp-content/uploads/hero-image-flex-example-1.jpg"); */
-  background: black;
-  background-image: url(/img/hero.jpg);
+  background-color: black;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  align-self: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  align-items: center;
-  justify-content: baseline;
-}
-
-.navigation {
-   color: white;
-}
-
-ul {
-  /* border: 2px solid #fb7185; */
-  /* flex-direction: column; */
-  /* align-items: flex-start; */
-  /* align-content: center; */
-  margin: 0;
-  padding: 0;
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 5em;
-  /* width: 100vw; */
-}
-
-li {
-  /* background-color: #fb7185; */
-  /* border: 1px solid white; */
-  width: 150px;
-  height: 250px;
-  /* padding: 1em; */
-  font-weight: 700;
-  color: var(--clr-light);
+  align-items: center;
   text-align: center;
-  align-content: center;
-  list-style-type: none;
+} */
+
+/* h1 {
+  color: white;
+  font-size: 120px;
+  font-family: Amarillo;
+  margin-bottom: 80px;
 }
 
-a {
-  font-size: 25px;
-  text-decoration: none;
-  color: var(--clr-accent);
-}
+p {
+  color: white;
+  font-size: 20px;
+} */
 
-.logo {
-  text-indent: -999999px;
-  background-image: url(/img/logo.png);
-  background-size: 150px;
+
+/* .row {
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)),
+  url('/img/Hoodies/Section01.jpg') no-repeat;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  }
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #ffffff4d;
+} */
 
-  h1 {
-    text-align: center;
-    align-content: center;
-  }
+/* .section-1 .text {
+  width: 500px;
+}
 
-/* .features {
-  background: red;
+.section-1 img {
+  padding: 5px;
+  width: 800px;
+}
+ */
+
+
+/* .row {
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: end;
 }
 
-.features figure {
-  border: 2px dashed white;
-   flex-shrink: 0;
-}
-
-.features img {
-  flex: 1 0 33.33%; Adjust the percentage as needed
-  flex-shrink: 0; Prevent images from shrinking
-  width: 500px;
+.column img {
+  max-width: 100%;
+  height: auto;
 } */
 
-.features {
+/* .text {
+  position: fixed;
+  z-index: -1;
+  color: #e8c639;
+  font-size: 6rem;
+  right: 60%;
+  bottom: 40%;
+  transform: translate(-20%, -40%);
+  font-family: Amarillo;
+} */
+
+canvas {
   width: 100vw;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  /* gap: 0; */
-}
-
-.features img {
-  width: 25vw; 
-  /* flex: 1 1 auto;  */
-}
-
-.Text-1 {
-  background: black;
-  background-image: url(/img/img6.jpg);
-  margin: 0;
-  padding: 0;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  background-repeat: no-repeat;
+}
+
+.bg {
+  z-index: -1;
+  position: fixed;
   background-size: cover;
-  background-attachment: fixed;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  background: url('/img/BG.jpg');
+  filter: brightness(0.3) blur(2px);
+  width: 100vw;
+  height: 100vh;
 }
 
-.Text-1 h1,p {
-  color: white;
-  
-}
-
-/* FOOTER */
-
-footer {
-  height: 250px;
-  background: black;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-  align-content: center;
+.bg2 {
+  z-index: -1;
+  background-size: cover;
+  background: url('/img/BG.jpg');
+  filter: brightness(0.3) blur(2px);
+  width: 100vw;
+  height: 100vh;
 }
 
