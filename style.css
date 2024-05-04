@@ -165,18 +165,19 @@ canvas {
   position: fixed;
   background-size: cover;
   background: url('./img/BG.jpg');
-  filter: brightness(0.3) blur(2px);
+  filter: brightness(0.3);
   width: 100vw;
   height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {
   canvas {
-    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
   }
 
   .bg {
-    background-size: contain;
+    background-size: cover;
   }
 }
 
